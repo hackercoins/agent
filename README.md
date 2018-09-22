@@ -12,6 +12,8 @@ Similar to transactions, crackactions are mined to the blockchain as well.
 
 Every participant can try to solve crackactions and earn stated rewards.
 
+Please read the white paper for technical details: https://www.hackercoins.org/Hacker-Coins.pdf
+
 ## License
 
 The Hacker-Coins agent software is released under the terms of the MIT license (https://opensource.org/licenses/MIT).
