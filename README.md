@@ -24,6 +24,6 @@ Java Runtime Environment (Version >= 1.7)
 
 Click on the .jar-file to use the agent in gui-mode (e.g. on Windows).
 
-Execute the .jar-file with command line options in order to run it in non-gui-mode.
+Execute the .jar-file with the following command line options in order to run it in non-gui-mode:
 
 $ java -jar hackercoins.jar mining=(threads) cracking=(threads) send=(address-to-wich-rewards-are-sent) passwd=(for-wallet)
