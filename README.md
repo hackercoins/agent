@@ -2,9 +2,9 @@
 
 https://www.hackercoins.org
 
-## What are Hacker-Coins?
+## What is Hacker-Coins?
 
-Hacker-Coins is a free open-source cryptocurrency based on blockchain technology.
+Hacker-Coins is a free open-source utility token system based on blockchain technology.
 The architecture allows to send transactions between addresses and to earn coins with mining.
 
 Additionally, the Hacker-Coins systems allows the deployment of crackactions which are announcements of a reward for successfully cracking a hash. 
