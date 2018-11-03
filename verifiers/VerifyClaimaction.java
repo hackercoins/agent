@@ -201,7 +201,7 @@ public class VerifyClaimaction {
 						store.blocks.release();
 						
 						String[] block_tokens = block.split("#");
-						log.addEntry("VerifyClaimaction>verify()", "Checking block: " + block_tokens[0]);
+						//log.addEntry("VerifyClaimaction>verify()", "Checking block: " + block_tokens[0]);
 							
 						// skip if current block is older than 12 hours from the timestamp of the PCL
 						int block_ts = Integer.parseInt(block_tokens[3]);

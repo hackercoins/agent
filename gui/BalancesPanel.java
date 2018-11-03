@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.math.RoundingMode;
+import java.net.URL;
 import java.text.DecimalFormat;
 import java.util.LinkedList;
 
@@ -21,6 +22,7 @@ import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 
+import server.Server;
 import storage.Store;
 
 public class BalancesPanel {
@@ -47,9 +49,8 @@ public class BalancesPanel {
 		
 		try {
 
-			
-			BufferedImage image = ImageIO.read(new File("resources/logo_new_small.png"));
-			JLabel imglabel = new JLabel(new ImageIcon(image));
+			URL url = Server.class.getResource("/resources/logo_new_small.png");
+			JLabel imglabel = new JLabel(new ImageIcon(url));
 			imglabel.setBounds(60, 25, 160, 160);
 			panel.add(imglabel);
 			

@@ -3,6 +3,7 @@ package gui;
 import java.awt.Font;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.net.URL;
 
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
@@ -10,6 +11,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
+
+import server.Server;
 
 public class InfosPanel {
 	
@@ -23,8 +26,8 @@ public class InfosPanel {
 
 		try {
 
-			BufferedImage image = ImageIO.read(new File("resources/logo_new_big.png"));
-			JLabel imglabel = new JLabel(new ImageIcon(image));
+			URL url = Server.class.getResource("/resources/logo_new_big.png");
+			JLabel imglabel = new JLabel(new ImageIcon(url));
 			imglabel.setBounds(180, 160, 324, 312);
 			panel.add(imglabel);
 			
@@ -37,12 +40,12 @@ public class InfosPanel {
 		area.setOpaque(false);
 		
 		String s = "";
-		s += "HackerCoins is a free open-source cryptocurrency.\n";
+		s += "HackerCoins is a free open-source utility token.\n";
 		s += "You can use the agent software to create transaction or crackactions.\n\n";
 		s += "A crackaction is the announcement of a reward for cracking a hash/salt.\n";
 		s += "Similar to transactions, crackactions are mined to the blockchain as well.\n\n";
 		
-		s += "With this agent software, you can also mine blocks and solve crackactions.\n";
+		s += "With this agent software, you can mine blocks and solve crackactions.\n";
 		s += "Both opportunities allow to earn new Hacker-Coins.\n\n";
 		
 		s += "If you have any questions, feel free to contact the Hacker-Coins-Team.\n";
