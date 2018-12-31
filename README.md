@@ -2,6 +2,8 @@
 
 https://www.hackercoins.org
 
+This project was discontinued on 12/31/2018.
+
 ## What is Hacker-Coins?
 
 Hacker-Coins is a free open-source utility token system based on blockchain technology.
